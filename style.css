@@ -1,0 +1,15 @@
+.caculater-body{
+    height: 300px;
+    width: 250px;
+    background-color: #3D3D5C;
+    margin: 20px auto;
+    border-radius: 10px;
+    padding: 20px;
+}
+.display{
+    background-color: #A1AF77;
+    text-align: right;
+    width: 220px;
+    display: block;
+    margin: 0 auto;
+}
