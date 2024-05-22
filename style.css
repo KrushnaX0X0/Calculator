@@ -1,15 +1,32 @@
 .caculater-body{
-    height: 300px;
-    width: 250px;
+    height: 45vh;
+    width: 17vw;
     background-color: #3D3D5C;
     margin: 20px auto;
     border-radius: 10px;
     padding: 20px;
+    padding-top: 5.3vh;
 }
 .display{
-    background-color: #A1AF77;
+    background-color: #a1af77;
     text-align: right;
-    width: 220px;
+    width: 16vw;
     display: block;
     margin: 0 auto;
+    font-size: 1.8vw;
+    padding: 1vh 1vh;
+    margin-bottom: 2.3vh;
+}
+.button{
+    height:29vh;
+    background-color: tomato;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.btn{
+    width: 8vh;
+    padding: 2px 0;
+    font-size: 1.3vw;
+    text-align: center;
 }
