@@ -1,6 +1,16 @@
+@font-face{
+    font-family: "DS-Digital Normal";
+    font-style: normal;
+    font-weight: normal;
+    src: local("DS-Digital normal"), url("DS-DIGI.Woff") format("Woff");
+}
+
+
+
+
 .caculater-body{
     height: 45vh;
-    width: 17vw;
+    width: 18vw;
     background-color: #3D3D5C;
     margin: 20px auto;
     border-radius: 10px;
@@ -10,23 +20,39 @@
 .display{
     background-color: #a1af77;
     text-align: right;
-    width: 16vw;
+    width: 16.3vw;
     display: block;
     margin: 0 auto;
     font-size: 1.8vw;
     padding: 1vh 1vh;
     margin-bottom: 2.3vh;
+    font-family: "DS-Digital Normal";
 }
 .button{
     height:29vh;
-    background-color: tomato;
+    
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
 }
 .btn{
     width: 8vh;
     padding: 2px 0;
     font-size: 1.3vw;
     text-align: center;
+    margin: 2.5px;
+    border: 0.5px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.btn:hover{
+    box-shadow: 0 0 5px 0 rgb(247, 250, 250);
+}
+.btn-special{
+    background-color: #ff6348;
+    height: 10.2vh;
+    color: white;
 }
